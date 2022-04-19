@@ -4,8 +4,10 @@
 #include "main.h"
 
 /**
- * _printf - function that produces output according to a format.
- * @format: pointer to character string. Composed of zero or more directives.
+ * print_chr - function that writes the character c to stdout.
+ * @arguments: input char.
+ * @buf: buffer pointer.
+ * @ibuf: index for buffer pointer
  *
  * write output to stdout, the standard output stream.
  * You need to handle the following conversion specifiers: c, s, %.
@@ -20,54 +22,12 @@
  * used to end output strings.
  */
 
-int _printf(const char *format, ...)
+int print_chr(va_list arguments, char *buf, unsigned int ibuf)
 {
-	/* int i = 0;
-	va_list arg;
+	char c;
 
-	va_start(arg, format);
+	c = va_arg(arguments, int);
+	handl_buf(buf, c, ibuf);
 
-	while (format[i] != '\0')
-	{
-		printf("%s\n", format);
-		format = va_arg(arg, char*);
-	}
-
-	va_end(arg);
-	return (1);
-	*/
-	va_list ap;
-	char *p, *sval;
-	int ival;
-	double dval;
-
-	va_start(ap, *format);
-	for (p = format; *p; p++)
-	{
-		if (*p != '%')
-		{
-			putchar(*p);
-			continue;
-		}
-		switch (*++p) 
-		{
-         	case 'd':
-            ival = va_arg(ap, int);
-            printf("%d", ival);
-            break;
-        case 'f':
-            dval = va_arg(ap, double);
-            printf("%f", dval);
-            break;
-        case 's':
-            for (sval = va_arg(ap, char *); *sval; sval++)
-            putchar(*sval);
-            break;
-        default:
-            putchar(*p);
-            break;
-      	}
-	}
-	va_end(ap); /* clean up when done */
 	return (1);
 }
