@@ -2,7 +2,7 @@
 **0x11. C - printf**
 
 ## Table of Contents
-- [Authors' Details](#authors'-details)
+- [Author Details](#author-details)
 - [Requirements](#requirements)
 - [Authorized functions and macros](#authorized-functions-and-macros)
 - [Project Description](#project-description)
@@ -11,7 +11,7 @@
 - [Known Bugs](#known-bugs)
 - [Collaborate](#collaborate)
 
-## Authors' Details
+## Author Details
 1. *Wendy Munyasi - wendymunyasi@gmail.com*
 1. *Brian Mugambi - brianmugambi199@gmail.com*
 
