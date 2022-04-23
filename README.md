@@ -38,7 +38,7 @@
 *   `va_arg` (`man 3 va_arg`)
 
 ### Project Description
-Write your own `printf` function. `_printf` is a custom implementation of the C programming function `printf`. This project is an application of the C programming knowledge that ALX School cohort 5 students have learned since starting the program on February 2022. Below are examples of how to use it.
+Write your own `printf` function. `_printf` is a custom implementation of the C programming function `printf`. This project is an application of the C programming knowledge that ALX School cohort 5 students have learned since starting the program on February 2022. Below are examples of how to use it:
 
 **String**
 * Input: `_printf("%s\n", 'This is a string.');`
