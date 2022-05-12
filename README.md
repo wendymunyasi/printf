@@ -22,7 +22,6 @@
 *   All your files should end with a new line.
 *   You are not allowed to use global variables.
 *   No more than 5 functions per file.
-*   You are allowed to use the following macros:`va_start`, `va_arg` and `va_end`.
 *   Note that we will not provide the `_putchar` function for this project.
 *   The `main.c` files are used to test your functions, but you don’t have to push them to your repo.
 *   The prototypes of all your functions should be included in your header file called `main.h`.
