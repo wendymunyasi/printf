@@ -263,7 +263,6 @@ Handle the following conversion specifier: `p`.
 
 **7. The big print gives and the small print takes away**
 ---
-#advanced
 Handle the following flag characters for non-custom conversion specifiers:
 
 *   `+`
@@ -300,7 +299,7 @@ Handle the 0 flag character for non-custom conversion specifiers.
 Handle the `-` flag character for non-custom conversion specifiers.
 - - -
 
-**3. Print is the sharpest and the strongest weapon of our party**
+**13. Print is the sharpest and the strongest weapon of our party**
 ---
 Handle the following custom conversion specifier:
 *   `r` : prints the reversed string.
@@ -314,7 +313,7 @@ Handle the following custom conversion specifier:
 
 **15.**
 ---
-All the above options work well together.
+Ensure all the above options work well together.
 - - -
 
 ## Known Bugs
